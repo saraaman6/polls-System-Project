@@ -1,5 +1,5 @@
 server:
-  port: 8079
+  port: 8080
 
 spring:
   datasource:
@@ -12,6 +12,3 @@ spring:
     console:
       enabled: true
       path: /h2-console
-users:
-  service:
-    url: http://localhost:8080
